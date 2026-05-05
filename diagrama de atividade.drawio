@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="e6juTzX39ZbnZMNqMdkR">
+    <mxGraphModel dx="860" dy="473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;" value="Diagrama de Atividades — Abrir Solicitação (SGPD)" vertex="1">
+          <mxGeometry height="30" width="500" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="375" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;" value="Colaborador acessa o SGPD" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;" value="Seleciona &#39;Nova Solicitação&#39;" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=11;" value="Sistema exibe formulário de abertura" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;" value="Colaborador preenche título, descrição, categoria e urgência" vertex="1">
+          <mxGeometry height="50" width="220" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Campos obrigatórios preenchidos?" vertex="1">
+          <mxGeometry height="80" width="270" x="255" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#993C1D;fontColor=#712B13;fontSize=11;" value="Sistema destaca campos em vermelho e exibe mensagem de erro" vertex="1">
+          <mxGeometry height="60" width="180" x="580" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#0C447C;fontSize=11;" value="Colaborador clica em &#39;Enviar Solicitação&#39;" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=11;" value="Sistema valida e registra a solicitação" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=11;" value="Sistema gera número de protocolo único" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=11;" value="Sistema notifica Colaborador e Analista de Suporte" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#0F6E56;fontColor=#085041;fontSize=11;" value="Solicitação aparece na fila do Analista de Suporte" vertex="1">
+          <mxGeometry height="40" width="220" x="280" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="375" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=1;fontColor=#0F6E56;" target="10" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=1;fontColor=#993C1D;" target="9" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;fontColor=#993C1D;dashed=1;" target="7" value="Corrigir">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="550" />
+              <mxPoint x="670" y="365" />
+              <mxPoint x="500" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;" target="14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="14" style="edgeStyle=orthogonalEdgeStyle;" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
